@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake - TheDevPiyush</title>
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+        href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gameBoard" id="gameBoard">
+
+        <div class="snake" id="snake"></div>
+        <div class="food" id="food"></div>
+        <div class="score" id="score">0</div>
+        <div id="mode-text" class="score score-txt"></div>
+
+        <div class="gameovercontainer" id="gameovercontainer">
+            <div class="gameoverBox" id="gameoverBox">
+                <div class="heading-gameover" id="heading-gameover">Gameover!!! The Snake Died</div>
+                <div id="yourScore">Your Score : <span id="displayScore">0</span></div>
+                <div id="replayBtn"><i class="fa fa-rotate-right" id="restartBtn" aria-hidden="true"></i></div>
+                <div id="info">Pressing 'R' will also restart the game.</div>
+            </div>
+        </div>
+
+        <div class="control-container">
+            <div class="touch-controls">
+                <i class="fa-regular fa-up" id="up"></i>
+                <i class="fa-regular fa-down" id="down"></i>
+                <i class="fa-regular fa-left" id="left"></i>
+                <i class="fa-regular fa-right" id="right"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
